@@ -1,0 +1,22 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/encoding@^1.0.7": "1.0.7",
+    "jsr:@std/http@1": "1.0.13",
+    "jsr:@std/media-types@1": "1.1.0"
+  },
+  "jsr": {
+    "@std/encoding@1.0.7": {
+      "integrity": "f631247c1698fef289f2de9e2a33d571e46133b38d042905e3eac3715030a82d"
+    },
+    "@std/http@1.0.13": {
+      "integrity": "d29618b982f7ae44380111f7e5b43da59b15db64101198bb5f77100d44eb1e1e",
+      "dependencies": [
+        "jsr:@std/encoding"
+      ]
+    },
+    "@std/media-types@1.1.0": {
+      "integrity": "c9d093f0c05c3512932b330e3cc1fe1d627b301db33a4c2c2185c02471d6eaa4"
+    }
+  }
+}

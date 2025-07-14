@@ -1,0 +1,16 @@
+{
+  "name": "@velotype/server-webserver",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "license": "MIT",
+  "tasks": {
+    "test-webserver": "deno run --allow-net --allow-env --allow-sys --allow-ffi --allow-read --watch --inspect tests/test_webserver.ts"
+  },
+  "publish": {
+    "exclude": [
+      "tests/"
+    ]
+  }
+}
