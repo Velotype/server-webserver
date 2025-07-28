@@ -8,8 +8,6 @@ import {
     Router
 } from "./router.ts"
 import {App} from "./app.ts"
-import {FileHelpers} from "./files.ts"
-
 import type {
     Handler,
     RequestInspector,
@@ -20,7 +18,6 @@ export {
     Mode,
     App,
     Context,
-    FileHelpers,
     RequestInspectorResponse,
     Inspector,
     RouteNode,
