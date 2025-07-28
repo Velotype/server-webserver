@@ -1,6 +1,6 @@
 {
   "name": "@velotype/server-webserver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Webserver framework for high performance websites",
   "main": "./src/index.ts",
   "types": "./src/index.d.ts",
